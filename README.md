@@ -7,4 +7,4 @@ Scripts named list_dir.sh, list_dir_NV.sh creates the files with CWEXX vulnerabl
 
 Script mutare_csv.sh moves between folders and concatenate csv tokenized files per each CWE, and creates files X_CWEXX  (both for HAC and KMEANS)
 
-Script creare_Y.sh creates files Y_CWEXX  (identical for HAC and KMEANS), starting with value 0 (per line) for non-volnerable samples , and 1 for vulnerable samples (at the end)
+Script creare_Y.sh creates files Y_CWEXX  (identical for HAC and KMEANS), starting with value 0 (per line) for non-vulnerable samples, and 1 for vulnerable samples (at the end)
