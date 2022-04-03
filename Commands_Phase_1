@@ -1,0 +1,33 @@
+
+
+Commands
+
+Work Environment preparation
+
+OS: Ubuntu 21.10 on VMWare Workstation 16 Player 
+
+phd@ubuntu:~$ sudo apt install python3.10
+
+phd@ubuntu:~$ python3
+Python 3.9.7 (default, Sep 10 2021, 14:59:43) 
+[GCC 11.2.0] on linux
+
+sudo apt install python3-pip
+
+pip install -U gensim
+
+Successfully installed gensim-4.1.2 numpy-1.22.3 scipy-1.8.0 smart-open-5.2.1
+
+pip3 install nltk
+pip3 install pandas
+pip3 install matplotlib
+pip3 install sklearn
+
+python3
+
+>>> import gensim ; from gensim import corpora ; from pprint import pprint ; from gensim.utils import simple_preprocess ; from smart_open import smart_open ; import os; import nltk ; from nltk import sent_tokenize, word_tokenize, pos_tag; nltk.download('punkt') ; import pandas as pd ; from gensim import corpora, models, similarities ; import csv; import matplotlib ; from matplotlib import pyplot ; from sklearn.manifold import TSNE ; import re ;
+
+>>> os.chdir("/home/phd/phd2022/work2022/") ;
+
+
+
